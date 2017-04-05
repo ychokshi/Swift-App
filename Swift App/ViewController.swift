@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         
         print(tapCount,"times")
         
-        if tapCount >= 10 {
+        if tapCount >= 20 {
             theLabel.text = "STOP"
         }
     }
